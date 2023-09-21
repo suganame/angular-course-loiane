@@ -7,9 +7,10 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
 import { FormsModule } from '@angular/forms';
 import { MyFormComponent } from './my-form/my-form.component';
 import { MyFormModule } from './my-form/my-form.module';
+import { InputPropertyComponent } from './input-property/input-property.component';
 
 @NgModule({
-  declarations: [AppComponent, DataBindingComponent],
+  declarations: [AppComponent, DataBindingComponent, InputPropertyComponent],
   imports: [BrowserModule, FormsModule, AppRoutingModule, MyFormModule],
   providers: [],
   bootstrap: [AppComponent],
